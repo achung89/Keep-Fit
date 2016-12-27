@@ -15,7 +15,7 @@ var database = {
   }
 }
 
-var connection = mysql.createConnection(database.jawsDB);
+var connection = mysql.createConnection(database.local);
 
 
 connection.connect();
